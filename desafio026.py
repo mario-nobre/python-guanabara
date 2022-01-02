@@ -1,0 +1,5 @@
+texto=input('digite uma frase ').lower().strip()
+frase=texto.count('a')
+print('a letra \'a\' aparece', frase,'vezez.')
+print('ela aparece pela primeira vez na posição ',texto.find('a')+1)
+print('a letra \'a\' aparece pela ultima vez na posição ',texto.rfind('a')+1)
